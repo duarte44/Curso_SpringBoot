@@ -1,0 +1,5 @@
+package com.allan.cursomc.resources.exception;
+
+public class FieldMessage {
+
+}

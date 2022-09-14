@@ -1,0 +1,24 @@
+package com.allan.cursomc.domain;
+
+import java.util.Date;
+
+public class Pedido {
+
+	private Integer id;
+	private Date instante;
+	
+	private Pagamento pagamento;
+	
+	public Pedido() {
+		
+	}
+
+	public Pedido(Integer id, Date instante, Pagamento pagamento) {
+		super();
+		this.id = id;
+		this.instante = instante;
+		this.pagamento = pagamento;
+	}
+	
+	
+}

@@ -1,0 +1,37 @@
+package com.allan.cursomc.services;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.allan.cursomc.domain.Categoria;
+import com.allan.cursomc.repositories.CategoriaRepository;
+import com.allan.cursomc.services.exceptions.ObjectNotFoundException;
+
+@Service
+public class CategoriaService {
+// faz as requições 
+	
+	@Autowired
+	private CategoriaRepository repo; //instancia para fazer requisições no banco
+	
+	/*public Categoria buscar(Integer id) {
+		Categoria obj = repo.findById(id).get();
+		if (obj == null) {
+			throw new ObjectNotFoundException("Object não encontrado! Id: " + id 
+					+ ", Tipo: " + Categoria.class.getName());
+		}
+		return obj; */
+		
+		public Categoria find(Integer id) {
+			 Optional<Categoria> obj = repo.findById(id);
+			return obj.orElseThrow(() -> new ObjectNotFoundException(
+			 "Objeto não encontrado! Id: " + id + ", Tipo: " + Categoria.class.getName()));
+			 
+	} 
+	
+	
+
+
+}

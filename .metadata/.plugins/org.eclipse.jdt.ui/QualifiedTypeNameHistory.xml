@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.domain.Estado"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.domain.Cidade"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.repositories.CidadeRepository"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.repositories.EstadoRepository"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="javax.persistence.ElementCollection"/>
+    <fullyQualifiedTypeName name="javax.persistence.CollectionTable"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.domain.Cliente"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.domain.enums.TipoCliente"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.domain.Endereco"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.repositories.ClienteRepository"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.repositories.EnderecoRepository"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="javax.persistence.Inheritance"/>
+    <fullyQualifiedTypeName name="javax.persistence.InheritanceType"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.domain.PagamentoComBoleto"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.domain.enums.EstadoPagamento"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.repositories.PedidoRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.repositories.PagamentoRepository"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.domain.ItemPedidoPK"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.domain.Pedido"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.domain.ItemPedido"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.repositories.ItemPedidoRepository"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonManagedReference"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonBackReference"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonFormat"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
+    <fullyQualifiedTypeName name="org.springframework.dao.DataIntegrityViolationException"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.services.exceptions.DataIntegrityException"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Sort.Direction"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.dto.CategoriaDTO"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.MethodArgumentNotValidException"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.allan.cursomc.resources.exception.FieldMessage"/>
+</qualifiedTypeNameHistroy>

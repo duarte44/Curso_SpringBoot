@@ -1,0 +1,6 @@
+package com.allan.cursomc.domain;
+
+public class PagamentoComCartao {
+
+	private Integer numeroDeParcelas;
+}
