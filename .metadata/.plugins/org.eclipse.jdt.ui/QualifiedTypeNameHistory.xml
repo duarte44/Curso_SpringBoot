@@ -43,4 +43,5 @@
     <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.allan.cursomc.resources.exception.FieldMessage"/>
+    <fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
 </qualifiedTypeNameHistroy>
